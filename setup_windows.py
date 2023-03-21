@@ -38,7 +38,7 @@ def get_config():
 
     extra_link_args = ["/MANIFEST"]
 
-    name = "mysqlclient"
+    name = "mysqlclient-collate"
     metadata["name"] = name
 
     define_macros = [

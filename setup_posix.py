@@ -132,7 +132,7 @@ def get_config():
                 if L in libraries:
                     libraries.remove(L)
 
-    name = "mysqlclient"
+    name = "mysqlclient-collate"
     metadata["name"] = name
 
     define_macros = [

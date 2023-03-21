@@ -12,3 +12,5 @@ build/
 dist/
 MySQLdb/release.py
 .coverage
+.venv/
+venv/
