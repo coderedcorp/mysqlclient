@@ -1,5 +1,9 @@
 # mysqlclient-collate
 
+**NOTE:** These features have been merged upstream into mysqlclient 2.2.0. This package is now archived. Please switch to `mysqlclient>=2.2` instead.
+
+---
+
 Fork of [mysqlclient](https://github.com/PyMySQL/mysqlclient) which adds support for setting collation via connection options.
 
 Setting collation is necessary for servers that do not use the default, and for Django queries using `CAST` statements, which are prevalent in Wagtail 4. For more background, see the following discussions:
